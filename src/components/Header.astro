@@ -60,6 +60,37 @@ import HeaderLink from './HeaderLink.astro';
 		display: flex;
 	}
 	@media (max-width: 720px) {
+		header {
+			padding: 0.75em 1em;
+		}
+
+		nav {
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 0.75em;
+		}
+
+		h2 {
+			font-size: 1.1rem;
+			text-align: center;
+		}
+
+		h2 a {
+			padding: 0;
+		}
+
+		.internal-links {
+			display: flex;
+			justify-content: center;
+			gap: 1.25em;
+			flex-wrap: wrap;
+		}
+
+		.internal-links a {
+			padding: 0.25em 0;
+			font-size: 1rem;
+		}
 		.social-links {
 			display: none;
 		}
