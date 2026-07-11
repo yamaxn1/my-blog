@@ -4,7 +4,7 @@ description: "Helloと表示されるだけのOSを作る記事"
 pubDate: 2026-07-11
 tags: ["OS", "VMware Workstation", "NASM"]
 ---
-## 概要
+### 概要
 Helloと表示されるだけのOSを作ります。
 
 ### 必要な道具を準備する
@@ -86,5 +86,5 @@ nasm.exe -f bin boot.asm -o boot.bin
 仮想マシンの「この仮想マシンをパワーオンする」を選択  
 「対応するデバイスがホストに存在しないため、～」と出てきたら、「いいえ」を選択。  
   
-Helloと表示される  
+Helloと表示される  。
 ![画像](/images/03_Basic_OS/3.png)  
