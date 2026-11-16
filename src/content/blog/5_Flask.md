@@ -105,5 +105,3 @@ python app.py
 http://127.0.0.1:5000
 
 アプリが表示され、名前を入力してボタンを押すと、挨拶が表示される。
-![画像](/images/05_Flask/4.png)  
-![画像](/images/05_Flask/5.png)  
